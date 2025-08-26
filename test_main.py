@@ -35,7 +35,7 @@ load = JLoader()
 load.add_path(r'C:\RoboVeB_SDK')
 
 frame = JFrame(load)
-frame.setup()
+frame.setup(
 
 from updatecode.updatecode import router as updatecode_router
 # ^^^ UpdateCodeAPI
